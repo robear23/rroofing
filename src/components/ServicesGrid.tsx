@@ -21,7 +21,7 @@ const services = [
   {
     title: "Slate & Tiling",
     description: "Expert slate and tile craftsmanship to restore or upgrade the classic look of your roof.",
-    image: "https://images.unsplash.com/photo-1622396481328-9b1b78cdd9fd?q=80&w=800&auto=format&fit=crop"
+    image: "/slate_tiling.png"
   }
 ];
 
@@ -52,7 +52,7 @@ export default function ServicesGrid() {
               <div className="p-6">
                 <h3 className="text-xl font-bold text-white mb-3 group-hover:text-brand-400 transition-colors">{service.title}</h3>
                 <p className="text-slate-400 text-sm leading-relaxed mb-6">{service.description}</p>
-                <div className="flex items-center text-brand-500 font-medium text-sm gap-1 group-hover:gap-2 transition-all">
+                <div className="flex items-center text-slate-300 font-medium text-sm gap-1 group-hover:gap-2 group-hover:text-brand-400 transition-all">
                   <span>Learn more</span>
                   <ArrowUpRight size={16} />
                 </div>
